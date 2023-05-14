@@ -1,0 +1,7 @@
+<launch>
+
+   <node pkg="planner" type="run_node" name="run"/>
+
+   <node pkg="map_server" type="map_server" name="map_server" args="$(find planner)/maps/map.yaml"/>
+    <node pkg="rviz" type="rviz" name="rviz" />
+</launch>

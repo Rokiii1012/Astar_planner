@@ -1,0 +1,174 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 failed with the following output:
+Change Dir: /home/fyk/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8ca1c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ca1c.dir/build.make CMakeFiles/cmTC_8ca1c.dir/build
+make[1]: Entering directory '/home/fyk/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8ca1c.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wshorten64to32 -Werror   -Wshorten-64-to-32 -o CMakeFiles/cmTC_8ca1c.dir/src.cxx.o -c /home/fyk/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+CMakeFiles/cmTC_8ca1c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8ca1c.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_8ca1c.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/fyk/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8ca1c/fast' failed
+make: *** [cmTC_8ca1c/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wenumconversion failed with the following output:
+Change Dir: /home/fyk/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3164e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3164e.dir/build.make CMakeFiles/cmTC_3164e.dir/build
+make[1]: Entering directory '/home/fyk/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3164e.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wenumconversion -Werror   -Wenum-conversion -o CMakeFiles/cmTC_3164e.dir/src.cxx.o -c /home/fyk/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wenum-conversion'; did you mean '-Wno-conversion'?
+CMakeFiles/cmTC_3164e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3164e.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_3164e.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/fyk/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3164e/fast' failed
+make: *** [cmTC_3164e/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions failed with the following output:
+Change Dir: /home/fyk/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71ec7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71ec7.dir/build.make CMakeFiles/cmTC_71ec7.dir/build
+make[1]: Entering directory '/home/fyk/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_71ec7.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wcpp11extensions -Werror   -Wc++11-extensions -o CMakeFiles/cmTC_71ec7.dir/src.cxx.o -c /home/fyk/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wc++11-extensions'; did you mean '-fms-extensions'?
+CMakeFiles/cmTC_71ec7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_71ec7.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_71ec7.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/fyk/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_71ec7/fast' failed
+make: *** [cmTC_71ec7/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /home/fyk/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d0794/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d0794.dir/build.make CMakeFiles/cmTC_d0794.dir/build
+make[1]: Entering directory '/home/fyk/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d0794.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd981 -Werror   -wd981 -o CMakeFiles/cmTC_d0794.dir/src.cxx.o -c /home/fyk/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd981'
+CMakeFiles/cmTC_d0794.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d0794.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d0794.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/fyk/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d0794/fast' failed
+make: *** [cmTC_d0794/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /home/fyk/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef961/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef961.dir/build.make CMakeFiles/cmTC_ef961.dir/build
+make[1]: Entering directory '/home/fyk/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ef961.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd2304 -Werror   -wd2304 -o CMakeFiles/cmTC_ef961.dir/src.cxx.o -c /home/fyk/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd2304'
+CMakeFiles/cmTC_ef961.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ef961.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_ef961.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/fyk/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ef961/fast' failed
+make: *** [cmTC_ef961/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /home/fyk/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e5823/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e5823.dir/build.make CMakeFiles/cmTC_e5823.dir/build
+make[1]: Entering directory '/home/fyk/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e5823.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_STRICTANSI -Werror   -strict-ansi -o CMakeFiles/cmTC_e5823.dir/src.cxx.o -c /home/fyk/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-strict-ansi'; did you mean '-fstrict-enums'?
+CMakeFiles/cmTC_e5823.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e5823.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_e5823.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/fyk/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e5823/fast' failed
+make: *** [cmTC_e5823/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
+Change Dir: /home/fyk/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6e081/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6e081.dir/build.make CMakeFiles/cmTC_6e081.dir/build
+make[1]: Entering directory '/home/fyk/eigen/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6e081.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_Qunusedarguments -Werror   -Qunused-arguments -o CMakeFiles/cmTC_6e081.dir/src.cxx.o -c /home/fyk/eigen/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Qunused-arguments'; did you mean '-Wunused-parameter'?
+CMakeFiles/cmTC_6e081.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_6e081.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_6e081.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/fyk/eigen/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6e081/fast' failed
+make: *** [cmTC_6e081/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/fyk/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_29db3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_29db3.dir/build.make CMakeFiles/cmTC_29db3.dir/build
+make[1]: 进入目录“/home/fyk/eigen/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_29db3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_29db3.dir/CheckSymbolExists.c.o   -c /home/fyk/eigen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_29db3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29db3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_29db3.dir/CheckSymbolExists.c.o  -o cmTC_29db3 
+CMakeFiles/cmTC_29db3.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_29db3.dir/build.make:97: recipe for target 'cmTC_29db3' failed
+make[1]: *** [cmTC_29db3] Error 1
+make[1]: 离开目录“/home/fyk/eigen/build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_29db3/fast' failed
+make: *** [cmTC_29db3/fast] Error 2
+
+File /home/fyk/eigen/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/fyk/eigen/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_72607/fast"
+/usr/bin/make -f CMakeFiles/cmTC_72607.dir/build.make CMakeFiles/cmTC_72607.dir/build
+make[1]: 进入目录“/home/fyk/eigen/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_72607.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_72607.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_72607
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72607.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_72607.dir/CheckFunctionExists.c.o  -o cmTC_72607 -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_72607.dir/build.make:97: recipe for target 'cmTC_72607' failed
+make[1]: *** [cmTC_72607] Error 1
+make[1]: 离开目录“/home/fyk/eigen/build/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_72607/fast' failed
+make: *** [cmTC_72607/fast] Error 2
+
+
