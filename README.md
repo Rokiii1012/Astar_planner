@@ -18,8 +18,9 @@ Clone the repository and catkin_make:
          source devel/setup.bash
          roslaunch planner run_node.launch
          
+    
+
+
+
      
-     
-     
-     
- 用rviz的插件选择起点和终点即可，规划出路径。想要第二次规划，需要重新启动（因为程序还没写好）。
+ 用rviz的插件2D Pose Estimate 和2D Nav Goal选择起点和终点即可，规划出路径。想要第二次规划，需要重新启动（因为程序还没写好）。
